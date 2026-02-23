@@ -3,9 +3,10 @@ game 'gta5'
 
 this_is_a_map 'yes'
 
-files {
+client_script 'client.lua'
 
-"interiorproxies.meta"
+files {
+    "interiorproxies.meta"
 }
 
 data_file 'INTERIOR_PROXY_ORDER_FILE' 'interiorproxies.meta'
